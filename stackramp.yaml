@@ -1,0 +1,10 @@
+name: rozanov
+
+domain: rozanov.stackramp.io
+
+frontend:
+  framework: react
+  dir: website
+  node_version: "20"
+
+database: false

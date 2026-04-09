@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# Audio pipeline — local only, not committed
+scripts/raw/
+scripts/transcriptions/
+scripts/download.log
+website/public/audio/*.mp3

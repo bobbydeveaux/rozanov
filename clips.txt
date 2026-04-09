@@ -1,0 +1,22 @@
+# clips.txt — source URLs for Rozanov soundboard audio
+# One URL per line. Lines starting with # are ignored.
+#
+# Supported: YouTube, Instagram Reels, direct video URLs
+# The more clips you add, the better the match coverage.
+#
+# After adding URLs, run:
+#   ./scripts/pipeline.sh
+#
+# ── YouTube clips ──────────────────────────────────────────────────────────
+
+https://youtu.be/g6aLA8pJksg  # Shane and Ilya passionate scene
+https://www.youtube.com/shorts/N2rW7xJ4NK0  # Ilya boring compilation
+https://www.youtube.com/watch?v=TU4W7sChn7k  # Ilya scenes
+https://www.youtube.com/shorts/-Nd03T24NYY   # new short
+https://www.youtube.com/watch?v=ZZiYzXISb-U  # new clip
+https://www.instagram.com/reels/DTTBSBbDl1J/ # instagram reel
+
+# ── Instagram Reels ────────────────────────────────────────────────────────
+
+# Add Instagram Reel URLs here, e.g.:
+# https://www.instagram.com/reel/XXXXXXXXXXX/

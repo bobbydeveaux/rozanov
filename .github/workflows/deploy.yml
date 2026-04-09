@@ -1,0 +1,19 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "website/**"
+  pull_request:
+    paths:
+      - "website/**"
+
+jobs:
+  deploy:
+    permissions:
+      id-token: write
+      contents: read
+      pull-requests: write
+    uses: bobbydeveaux/stackramp/.github/workflows/platform.yml@main
+    secrets: inherit
