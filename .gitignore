@@ -7,4 +7,3 @@ dist
 scripts/raw/
 scripts/transcriptions/
 scripts/download.log
-website/public/audio/*.mp3
